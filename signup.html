@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- CSS Link -->
+    <link rel="stylesheet" href="./style/signup.css">
+
+<!-- Bootsrap Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+</head>
+<body style="background-image: url(./images/login.jpg); background-repeat: no-repeat; background-size: cover;">
+    
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient  bg-img  fixed-top">
+        <div class="container-fluid navbar-nav navbar-nav-scroll" >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand text-light " href="#">
+                <img src="./images/logo.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle ms-3 mt-0">
+                Our Library
+            </a>
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="./index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Sign Up</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-light" type="submit">Search</button>
+            </form>
+              <!-- <ul class="navbar-nav sm-icons">
+                  <li class="nav-item "><a class="nav-link" href="#"><i class="bi bi-facebook" style="color:white"></i></a></li>
+                  <li class="nav-item "><a class="nav-link" href="#"><i class="bi bi-instagram" style="color:white"></i></a></li>
+                  <li class="nav-item "><a class="nav-link" href="#"><i class="bi bi-twitter" style="color:white"></i></a></li>
+                  
+              </ul> -->
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      
+      <div class="container mt-lg-5 "> 
+        <div class="row justify-content-center"> 
+            <div class="col-md-6"> 
+                <div class="card"> 
+                    <div class="card-body"> 
+                        <center>
+
+                            <h1 class="mt-4 text-primary">Sign Up</h1>
+                            <p class="text-dark-gradient">Please fill in this form to create an account.</p>
+        
+                        </center><br>
+                        <form action="" >
+                            
+                                
+                              
+                                <div class="form-group w-100"> 
+                                    <label for="email"> 
+                                        Email 
+                                    </label> 
+                                    <input type="email" 
+                                           class="form-control " 
+                                           id="email" 
+                                           placeholder="Email" required> 
+                                </div> <br>
+                                <div>
+                                    <label for="psw">
+                                        Password
+                                    </label>
+                                    <input type="password"  
+                                           class="form-control border border-dark-gradient" 
+                                           placeholder="Enter Password" 
+                                           name="psw" required>
+
+                                </div><br>
+
+                                <div>
+                                    <label for="psw-repeat">
+                                        Repeat Password
+                                    </label>
+                                    <input type="password"  
+                                           class="form-control border border-dark-gradient" 
+                                           placeholder="Repeat Password" 
+                                           name="psw-repeat" required>
+
+                                </div>
+                                <br>
+                                <div>
+                                    <input type="checkbox"  checked="checked" name="remember"> Remember me
+                                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                              
+                                </div>
+                                         
+                                
+
+                              <div class="clearfix">
+                                <button type="button" class="cancelbtn form-control btn btn-danger">Cancel</button><br><br>
+                                <button type="submit" class="signupbtn form-control btn btn-success" >Sign Up</button>
+                              </div>
+                            
+                        </form>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+<br>
+<br>
+        
+    
+
+      
+
+      
+</body>
+</html>
